@@ -1,0 +1,25 @@
+# Системные файлы и папки
+.DS_Store
+Thumbs.db
+
+# Логи
+*.log
+
+# Smarty кэш
+templates_c/
+cache/
+
+# Загруженные файлы и изображения
+uploads/
+
+# Конфигурационные файлы с паролями
+src/config/db.php
+
+# Composer и IDE файлы
+composer.lock
+vendor/
+.idea/
+*.iml
+
+# PHP отладочные файлы
+phpinfo.php
